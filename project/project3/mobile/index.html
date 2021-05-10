@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>while</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="css/swiper.css">   
+<link rel="stylesheet" href="css/font.css">    
+<link rel="stylesheet" href="css/reset.css">     
+<link rel="stylesheet" href="css/style.css">       
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>    
+</head>
+
+<body>    
+<div class="wrapper">
+    <header id="header">
+        <div class="top clearfix">
+            <div class="logo">
+                <h1><a href=""><img src="images/logo.png" alt="logo"></a></h1>
+            </div>
+            <div class="utils">
+                <ul>
+                    <li><a href="" class="sch"><img src="images/ic_sch.png" alt="ic_sch"></a></li>
+                    <li><a href="" class="tab"><img src="images/ico_tab.png" alt="ic_tab
+                    "></a></li>
+                </ul>    
+            </div>
+        </div>    
+            <div id="mobile">
+                <div class="login clearfix">
+                    <a href="">로그인해주세요.</a>
+                    <div class="home">
+                        <ul>
+                             <li><a href=""><img src="images/ic_home.png" alt="ic_home"></a></li>
+                             <li><a href="" class="close"><img src="images/ic_close.png" alt="ic_close"></a></li>
+                        </ul>    
+                    </div>
+                    <div class="quick">
+                        <ul>
+                            <li><a href=""><img src="images/quick_ic.png" alt="quick_ic1"><span>오뚜기몰</span></a></li>
+                            <li><a href=""><img src="images/quick_ic2.png" alt="quick_ic2"><span>최근 본 레시피</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="gnb_tit">
+                    <strong>오'키친 레시피 카테고리</strong>
+                    <span>오뚜기가 제안하는 맛있고 건강한 요리</span>
+                </div>
+                <nav id="gnb">
+                    <ul>
+                        <li><a href="">인기레시피</a></li>
+                        <li><a href="">신규레시피</a></li>
+                        <li><a href="">종류별</a></li>
+                        <li><a href="">재료별</a></li>
+                        <li><a href="">방법</a></li>
+                        <li><a href="">테마</a></li>
+                        <li><a href="">기념일</a></li>
+                        <li><a href="">도구</a></li>
+                    </ul>   
+                </nav> 
+                <div class="customer clearfix">
+                    <strong>고객센터 080-433-8888</strong>
+                    <span>월 ~ 금:9:00 ~ 17:00</span>
+                    <br><span>점심시간:12:30 ~ 13:30</span>
+                    <br><span>토요일/일요일/공휴일은 휴무입니다.</span>
+                </div>
+            </div>
+    </header>
+    <div class="dim">dim</div>
+    <div id="main_slider">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="title">   
+						<dl>
+                            <dt><span>쉽고 빠르게</span> 따라 할 수 있는!</dt>
+							<dd>새내기 요리사<br>초보 레시피</dd>
+							<dt><span class="tit">#에그마요</span>
+                            <span class="tit">#브런치</span>
+                            <span class="tit">#갈릭아이올리</span></dt>
+						</dl>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="title">   
+						<dl>
+                            <dt><span>오뚜기 간편식</span>이 요리가 되는 팁!</dt>
+							<dd>요리의 업그레이드<br>셰프의 팁</dd>
+							<dt><span class="tit">#토마토 냉파스타</span>
+                            <span class="tit">#에그마요샌드위치</span></dt>
+						</dl>     
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="title">  
+						<dl>
+                            <dt><span>빠르고 간편하게</span> 하지만 맛은 최고!</dt>
+							<dd>10분 내로!<br>스피드 레시피</dd>
+							<dt><span class="tit">#핫케이크</span>
+                            <span class="tit">#시나몬</span>
+                            <span class="tit">#갈릭아이올리</span></dt>    
+						</dl>  
+					</div>
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+    
+    
+    <!--section-->
+    <section id="section">
+    <div class="new clearfix">
+        <div class="new_decs">
+            <strong>요리를 더 쉽게</strong>
+            <p class="new1">오뚜기몰의 각종 소스들로 
+            <br>모든 레시피를 보다 <span class="new1">쉽게, 빠르게, 맛있게</span></p>
+            <p class="new2">한국인 입맛에 딱, <span class="new2">"라조장 출시"</span></p>    
+        </div>
+        <div class="new_img"><img src="images/rajo2.jpg" alt="rajo"></div>
+    </div>
+    <div class="recommend">
+        <div class="recommend_tit clearfix">
+            <h3>추천 레시피</h3>
+            <a href="">View All</a>
+        </div>
+        <div id="recommend_slider">
+              <!-- sub-slider -->
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <a href="">
+                          <div class="img">
+                                <img src="images/hot1.jpg" alt="추천레시피1">
+                          </div>
+                          <div class="decs">
+                                <dl>
+                                    <dt>카레 비프 스튜</dt>
+                                    <dd>#3일숙성카레 #카레맛집 #쇠고기</dd>
+                                </dl>
+                          </div>
+                          <div class="label">
+                                <img src="images/label1.png" alt="label1">
+                          </div>
+                      </a>    
+                  </div>
+                  <div class="swiper-slide">
+                       <a href="">
+                          <div class="img">
+                                <img src="images/hot2.jpg" alt="추천레시피2">
+                          </div>
+                          <div class="decs">
+                                <dl>
+                                    <dt>유자 연근조림</dt>
+                                    <dd>#집밥 #밑반판 #꿀유자차</dd>
+                                </dl>
+                          </div>
+                          <div class="label">
+                                <img src="images/label1.png" alt="label1">
+                          </div>
+                      </a>  
+                  </div>
+                  <div class="swiper-slide">
+                       <a href="">
+                          <div class="img">
+                                <img src="images/hot3.jpg" alt="추천레시피3">
+                          </div>
+                          <div class="decs">
+                                <dl>
+                                    <dt>버섯크림리조또</dt>
+                                    <dd>#파우치스프X오뚜기밥 #리조또</dd>
+                                </dl>
+                          </div>
+                          <div class="label">
+                                <img src="images/label1.png" alt="label1">
+                          </div>
+                      </a> 
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="">
+                          <div class="img">
+                                <img src="images/hot_recipe1.jpg" alt="추천레시피4">
+                          </div>
+                          <div class="decs">
+                                <dl>
+                                    <dt>햄치즈마요덮밥</dt>
+                                    <dd>#마요네즈 #간편식 #계란요리</dd>
+                                </dl>
+                          </div>
+                          <div class="label">
+                                <img src="images/label1.png" alt="label1">
+                          </div>
+                      </a> 
+                  </div>
+                  <div class="swiper-slide">
+                       <a href="">
+                          <div class="img">
+                                <img src="images/hot5.jpg" alt="추천레시피5">
+                          </div>
+                          <div class="decs">
+                                <dl>
+                                    <dt>치킨 카레 타코</dt>
+                                    <dd>#멕시코 #밀또띠아 #닭가슴살</dd>
+                                </dl>
+                          </div>
+                          <div class="label">
+                                <img src="images/label1.png" alt="label1">
+                          </div>
+                      </a>
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-button-next"></div>
+			    <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>  
+              </div>            
+        </div>
+    </div>
+        
+    <div class="popular">
+        <div class="popular_banner">
+            <img src="images/img1.jpg" alt="img"></div>
+        <div class="popular_tit">
+            <h3>인기 레시피
+            <br>Popular Recipe</h3>
+            <p>오'키친에서 많은 분들이 찾아본 <span>인기레시피</span>를 <br>소개합니다.</p>
+        </div>
+        <div class="side_tit">
+            <strong class="side1">종류별</strong>
+            <strong class="side2">재료별</strong>
+        </div>
+        <div class="side_ic clearfix">
+            <div class="side1">
+                <a href=""><img src="images/side_ic1%20(1).png" alt="side_ic1"></a>
+                <a href=""><img src="images/side_ic1%20(2).png" alt="side_ic2"></a>
+            </div>
+            <div class="side2">
+                <select>
+                    <option>추천순</option>
+                    <option>최신순</option>
+                </select>
+            </div>
+        </div>
+        <div class="popular_decs clearfix">
+            <ul>
+                <li>
+                    <div class="img">
+                        <img src="images/popular1.jpg" alt="popular1">
+                    </div>
+                        <div class="decs">
+                            <a href="">
+                                <span class="new">new</span>
+                                <dl>
+                                    <dd class="time">4인분 ㅣ 조리30분</dd>
+                                    <dt>두부가지라자냐</dt>
+                                    <dd class="tag">
+                                        <span>#라망</span> <span>#치즈듬뿍</span></dd>
+                                </dl>
+                            </a>
+                        </div>
+                        <div class="share">
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="images/share%20(1).png" alt="공유아이콘1"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(2).png" alt="공유아이콘2"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(3).png" alt="공유아이콘3"></a>
+                                    </li>
+                                </ul>
+                        </div>
+                        
+                </li>
+
+                 <li>
+                    <div class="img">
+                            <img src="images/popular2.jpg" alt="popular2">
+                    </div>
+                    <div class="decs">
+                        <a href="">    
+                            <span class="new">new</span>
+                            <dl>
+                                <dd class="time">1인분 ㅣ 조리20분</dd>
+                                <dt>채식버거</dt>
+                                <dd class="tag">
+                                    <span>#소이마요</span> <span>#브런치</span>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="share">
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="images/share%20(1).png" alt="공유아이콘1"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(2).png" alt="공유아이콘2"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(3).png" alt="공유아이콘3"></a>
+                                    </li>
+                                </ul>
+                    </div>
+                </li>
+				<li>
+                    <div class="img">
+                            <img src="images/popular3.jpg" alt="popular3">
+                    </div>
+                    <div class="decs">
+                        <a href="">
+                            <span class="new">new</span>
+                            <dl>
+                                <dd class="time">3인분 ㅣ 조리20분</dd>
+                                <dt>쵸코스콘</dt>
+                                <dd class="tag">
+                                    <span>#노오븐베이킹</span> <span>#케이크</span> </dd>
+                            </dl>
+                        </a>     
+                    </div>
+                    <div class="share">
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="images/share%20(1).png" alt="공유아이콘1"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(2).png" alt="공유아이콘2"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(3).png" alt="공유아이콘3"></a>
+                                    </li>
+                                </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                            <img src="images/popular4.jpg" alt="popular1">
+                    </div>
+                    <div class="decs">
+                        <a href="">
+                            <span class="new">new</span>
+                            <dl>
+                                <dd class="time">3인분 ㅣ 조리15분</dd>
+                                <dt>얼큰홍합탕</dt>
+                                <dd class="tag">
+                                    <span>#오늘밥상</span> <span>#얼큰칼칼</span> </dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="share">
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="images/share%20(1).png" alt="공유아이콘1"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(2).png" alt="공유아이콘2"></a>
+                                    </li>                   <li>
+                                        <a href=""><img src="images/share%20(3).png" alt="공유아이콘3"></a>
+                                    </li>
+                                </ul>
+                    </div>
+                </li>    
+            </ul>    
+        </div>
+        <div class="more">
+            <a href="">더보기</a>
+        </div>
+    </div>
+    
+    <!--section chef-->
+    <div class="chef">
+        <div class="chef_tit1">
+            <h3>셰프의 팁!</h3>
+            <p>오뚜기 간편식이 근사한 요리가 되는 팁을 공개합니다.</p>
+            <div class="img">
+                <a href=""><img src="images/chef1.jpg" alt="셰프의팁1"></a>
+                <div class="label">
+                    <img src="images/label2.png" alt="label2">
+                </div>
+            </div>    
+        </div>  
+        <div class="chef_tit2">
+            <span>인기</span><strong>간편식 업그레이드</strong>
+            <p>오뚜기가 제안하는 맛있고 건강한 요리를 완성하세요.
+            <br>#분식집 #브런치 #집밥 #치즈듬뿍 #캠핑 #안주</p>
+        </div>
+        <div class="chef_decs">
+            <ul>
+                <li>
+                    <a href="">
+                        <div class="img">
+                            <img src="images/chef3.png" alt="chef2">
+                        </div>
+                        <div class="decs">
+                            <strong>분식집 라면</strong>
+                            <p>진라면X대파기름 간단 꿀조합
+                            <br>대파기름에 고추가루를 볶는 포인트!</p>
+                        </div>
+                    </a>
+                </li>                
+                <li>
+                    <a href="">
+                        <div class="img">
+                            <img src="images/chef2.png" alt="chef3">
+                        </div>
+                        <div class="decs">
+                            <strong>차돌박이 된장찌개</strong>
+                            <p>고깃집에서 먹는 된장찌개 맛을
+                            <br>그대로 재현할 수 있는 마법의 레시피</p>
+                        </div>
+                    </a>
+                </li>                
+                <li>
+                    <a href="">
+                        <div class="img">
+                            <img src="images/chef4.png" alt="chef4">
+                        </div>
+                        <div class="decs">
+                            <strong>분식집 라면</strong>
+                            <p>간단한 간식으로도 좋고,
+                            <br>술안주 하기에도 좋은 깐풍만두!</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    <div class="tip">
+        <div class="tip_banner">
+                <a href=""><img src="images/sec_bg.png" alt="팁배너"></a>   
+            <div class="tip_decs">
+                <p>밥숟가락, 종이컵으로 간단하고 쉽게 알려드립니다.</p>
+                <strong>오뚜기의 쉽고 간단한
+                <br>계량 꿀팁!</strong>
+            </div> 
+        </div>
+    </div> 
+    <div class="service">
+        <div class="service_decs1">
+            <strong>고객센터 080-433-8888</strong>
+            <span><br>월 ~ 금 : 오전 9시 ~ 17시
+                <br>점심시간 : 12:30 ~ 13:30
+                <br>토요일 / 일요일 / 공휴일은 휴무입니다.
+            </span>
+        </div> 
+        <div class="service_decs2 clearfix">
+            <p>고객센터가 종료된 4시 이후/토요일/일요일/공휴일에는
+                <br>1:1 문의 게시판을 이용바랍니다.</p>
+            <a href=""><img src="images/ic_ask.png" alt="ic_ask"></a>
+        </div>
+    </div>
+    <div class="notice">
+        <strong>공지사항</strong>
+        <a href="">[1월 3차] 미리보는 오'키친 전체메뉴</a>
+    </div>    
+    </section>   
+    <footer id="footer">
+        <div class="footer_menu">
+            <ul>
+				<li><a href="">이용약관</a></li>
+				<li><a href="">개인정보처리방침</a></li>
+				<li><a href="">법적고지</a></li>
+				<li><a href="">제품제안</a></li>
+            </ul>
+        </div>    
+         <p class="copyright">
+			<strong>㈜오뚜기</strong><br>
+			대표이사 : 이강훈<br>
+			(431-070) 안양시 동안구 흥안대로 405<br>
+			사업자등록번호 : 138-81-03238<br>
+			통신판매업신고 : 제 2003-경기안양-169호<br>
+			건강기능식품 판매업 신고 : 제 2007-00002호 사업자정보공개<br>
+			<b>copyright (c) ottogimall.co.kr all rights reserved.</b>
+		</p>
+        <div class="sns clearfix">
+            <ul>
+                <li><a href=""><img src="images/youtube.png" alt="youtube"></a></li>
+                <li><a href=""><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href=""><img src="images/insta.png" alt="insta"></a></li>
+            </ul>
+        </div>
+    </footer>
+</div>    
+</body>
+</html>    

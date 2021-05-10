@@ -1,0 +1,36 @@
+﻿:root {
+    --swiper-theme-color: #f64646;   
+    } 
+html, body {
+	position: relative;
+	height: 100%;
+}    
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #000;
+}  
+a {
+	text-decoration: none;
+	color: #000;
+}
+img {
+	vertical-align: top;
+}
+ 
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: block;
+}
+.clearfix::after {
+	clear: both;
+}  
